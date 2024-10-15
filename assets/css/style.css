@@ -1,5 +1,16 @@
-html,
-body {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-}
+            body {
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: auto auto auto auto;
+                gap: 10px;
+                justify-items: center;
+                align-items: center;
+                height: 100vh;
+                margin: 0;
+            }
+            h1 {
+                grid-column: 1;
+            }
+            label, input, button {
+                grid-column: 1;
+            }
