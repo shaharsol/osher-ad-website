@@ -1,1 +1,1 @@
-# osher-ad-website
+# dont like git its realy annoying
