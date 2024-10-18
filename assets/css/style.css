@@ -21,3 +21,11 @@ button {
   color: darkcyan;
   font-style: italic;
 }
+
+form {
+  border: 1px solid black;
+}
+
+input {
+  background-color: lightgreen;
+}
