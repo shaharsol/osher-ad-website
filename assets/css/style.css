@@ -23,9 +23,13 @@ button {
 }
 
 form {
-  border: 1px solid black;
+  border: 1px solid rgb(186, 41, 41);
 }
 
 input {
   background-color: lightgreen;
+}
+
+table, tr, td {
+  border: 3px solid purple;
 }
