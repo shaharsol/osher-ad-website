@@ -1,63 +1,87 @@
 body {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto auto auto auto;
-  gap: 10px;
-  justify-items: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto;
+    gap: 10px;
+    justify-items: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
 }
+
 h1 {
-  grid-column: 1;
+    grid-column: 1;
 }
+
+img {
+    height: 150px;
+    width: 250px;
+}
+
 label,
 input,
 button {
-  grid-column: 1;
+    grid-column: 1;
 }
 
 .mainheadline {
-  color: darkcyan;
-  font-style: italic;
+    color: darkcyan;
+    font-style: italic;
+}
+
+.secondheadline {
+    color: gold;
+    font-style: italic;
 }
 
 form {
-  border: 1px solid rgb(186, 41, 41);
+    border: 1px solid rgb(186, 41, 41);
 }
 
 input {
-  background-color: lightgreen;
+    background-color: lightgreen;
 }
 
-table, tr, td {
-  border: 3px solid purple;
+table,
+tr,
+td {
+    border: 3px solid purple;
 }
 
 /* No tixy baxy allowed, only pure awesomeness ahead! */
 
 @keyframes coolAnimation {
-  0% {
-      transform: scale(1);
-      color: #ffffff;
-      text-shadow: none;
-  }
-  50% {
-      transform: scale(1.5);
-      color: #ff00ff;
-      text-shadow: 0 0 20px #ff00ff, 0 0 40px #ff00ff, 0 0 60px #ff00ff;
-  }
-  100% {
-      transform: scale(1);
-      color: #00ff00;
-      text-shadow: 0 0 20px #00ff00, 0 0 40px #00ff00, 0 0 60px #00ff00;
-  }
+    0% {
+        transform: scale(1);
+        color: #ffffff;
+        text-shadow: none;
+    }
+
+    50% {
+        transform: scale(1.5);
+        color: #ff00ff;
+        text-shadow: 0 0 20px #ff00ff, 0 0 40px #ff00ff, 0 0 60px #ff00ff;
+    }
+
+    100% {
+        transform: scale(1);
+        color: #00ff00;
+        text-shadow: 0 0 20px #00ff00, 0 0 40px #00ff00, 0 0 60px #00ff00;
+    }
 }
 
 .mainheadline {
-  font-size: 3rem;
-  font-family: Arial, sans-serif;
-  text-align: center;
-  margin-top: 20vh;
-  animation: coolAnimation 3s infinite ease-in-out;
+    font-size: 3rem;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 20vh;
+    animation: coolAnimation 3s infinite ease-in-out;
+}
+
+.secondheadline {
+    font-size: 1.5rem;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 5vh;
+    animation: coolAnimation 6s infinite;
 }
