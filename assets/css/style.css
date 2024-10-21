@@ -8,7 +8,6 @@ body {
     height: 100vh;
     margin: 0;
     background: linear-gradient(to right, rgb(111, 210, 210), white);
-    border: 1px solid black;
 }
 
 h1 {
@@ -18,6 +17,7 @@ h1 {
 img {
     height: 150px;
     width: 250px;
+    border: 1px solid black;
 }
 
 label,
