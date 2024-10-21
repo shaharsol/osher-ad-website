@@ -20,6 +20,11 @@ img {
     border: 1px solid black;
 }
 
+td > img {
+    width: 180px;
+    height: 180px;
+}
+
 label,
 input,
 button {
