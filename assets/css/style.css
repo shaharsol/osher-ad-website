@@ -92,3 +92,32 @@ td {
     margin-top: 5vh;
     animation: coolAnimation 6s infinite;
 }
+
+.contanc-us-header {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 15);
+    font-weight: bold;
+}
+.contact-us-form {
+    direction: rtl;
+    display: grid;
+    grid-gap: 10px;
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: white;
+
+}
+
+.contact-us-form input,
+.contact-us-form textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+
+    box-sizing: border-box;
+}
+.contact-us-form textarea {
+    height: 100px;
+}
