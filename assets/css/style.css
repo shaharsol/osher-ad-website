@@ -20,7 +20,7 @@ img {
     border: 1px solid black;
 }
 
-td > img {
+td>img {
     width: 180px;
     height: 180px;
 }
@@ -93,12 +93,17 @@ td {
     animation: coolAnimation 6s infinite;
 }
 
-.contanc-us-header {
+.contact-us-header {
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(0, 0, 15);
     font-weight: bold;
+    animation-name: MyAnima;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
+
 .contact-us-form {
     direction: rtl;
     display: grid;
@@ -115,9 +120,38 @@ td {
     width: 100%;
     padding: 10px;
     border-radius: 5px;
-
     box-sizing: border-box;
 }
+
+/* flex on the form address into 2 rows */
+.form-address {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+/* design the input + textarea inside the address */
+.form-address input,
+.form-address textarea {
+    width: 30%;
+    padding: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
 .contact-us-form textarea {
     height: 100px;
+}
+
+/* rotating animation */
+@keyframes MyAnima {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
 }

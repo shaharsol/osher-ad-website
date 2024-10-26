@@ -1,47 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
     <div class="menu">
-        <a href="/index.html">Home</a>
-        <a href="/products.html">Products</a>
-        <a href="/about.html">About Us</a>
-        <a href="/contactus.html" > Contact Us</a>
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="about.html">About Us</a>
+        <a href="contactus.html"> Contact Us</a>
         <hr>
     </div>
-  
+
     <title>Document</title>
- 
+
 </head>
+
 <body>
-    <h1 class= "contanc-us-header"> :צור קשר</h1>
-        <form class="contact-us-form" > 
-            <label for= "first-name" > שם פרטי: </label>
-            <input type="text" placeholder="שם פרטי" >
+    <h1 class="contact-us-header"> :צור קשר</h1>
+    <form class="contact-us-form">
+        <label for="first-name"> שם פרטי: </label>
+        <input type="text" placeholder="שם פרטי">
 
-            <label for= "last-name" > שם משפחה: </label>
-            <input type="text" placeholder="שם משפחה" >
-            
-            <label for= "email" > אימייל: </label>
-            <input type="text" placeholder="כתובת מייל" >
-            
-            <label for= "PhoneNumber" > מספר טלפון: </label>
-            <input type="tel" placeholder="מספר טלפון" >
-            
-            <label for= "message" > הודעה: </label>
-            <textarea id="message" placeholder="כתוב את ההודעה" > </textarea>
-            
+        <label for="last-name"> שם משפחה: </label>
+        <input type="text" placeholder="שם משפחה">
 
-            <button type="submit">שלח</button>
-        </form>
-        <p>All rights reserved &copy;</p>
+        <label for="email"> אימייל: </label>
+        <input type="text" placeholder="כתובת מייל">
+
+        <label for="PhoneNumber"> מספר טלפון: </label>
+        <input type="tel" placeholder="מספר טלפון">
+
+        <div class="form-address">
+            <div>
+                <label for="country"> מדינה: </label>
+                <input type="text" placeholder="מדינה">
+                <label for="city"> עיר: </label>
+                <input type="text" placeholder="עיר">
+            </div>
+            <div>
+                <label for="street"> רחוב: </label>
+                <input type="text" placeholder="רחוב">
+                <label for="street number"> מספר בית: </label>
+                <input type="number" placeholder="מספר בית">
+            </div>
+        </div>
+
+        <label for="message"> הודעה: </label>
+        <textarea id="message" placeholder="כתוב את ההודעה"> </textarea>
 
 
-<label></label>
+        <button type="submit">שלח</button>
+    </form>
+    <p>All rights reserved &copy;</p>
+
+
+    <label></label>
 
 
 
 </body>
+
 </html>
